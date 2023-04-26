@@ -17,7 +17,7 @@ public class PersonDAO {
 
     private static Connection connection;
 
-    {
+    static {
         try {
             Class.forName("org.postgresql.Driver");
         } catch (ClassNotFoundException e) {
